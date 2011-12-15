@@ -88,7 +88,7 @@ var candidates = [
                 response_answer: "Yes", 
                 accepted_responses: ["Yes", "Intellegent Design"],
                 importance: 1, 
-                explanation: "Evolution certainly seems to express the closest understanding we can now have….I believe evolution should be taught as science, and intelligent design should be taught as philosophy."
+                explanation: "Evolution certainly seems to express the closest understanding we can now have...  I believe evolution should be taught as science, and intelligent design should be taught as philosophy."
             },
             {
                 question_id: "2",
@@ -310,7 +310,91 @@ var candidates = [
                 explanation: "",
             }   
         ]
-    },
+    },    
+{
+	        name: "Barak Obama",
+	        url: "http://www.barackobama.com/",
+	        photourl: "http://farm5.staticflickr.com/4068/4257556394_2768efc195_d.jpg",
+	        type: "candidate",
+	        responses: [
+	            {
+	                question_id: "1",	             
+	                response_answer: "Yes", //Obama believes in evolution.  http://www.freerepublic.com/focus/news/1999910/posts
+	                accepted_responses: ["Yes"], //keys to question choice
+	                importance: 10, // What is the most reliable way to weight these?
+						// Potential weights: 0-Irrelevant
+						// 1	-A Little Important
+						// 10	-Somewhat Important
+						// 50	-Very Important
+						// 250	-Mandatory
+	
+	                explanation: "I'm a Christian, and I believe in parents being able to provide children with religious instruction without interference from the state. But I also believe our schools are there to teach worldly knowledge and science. I believe in evolution, and I believe there's a difference between science and faith. That doesn't make faith any less important than science. It just means they're two different things. And I think it's a mistake to try to cloud the teaching of science with theories that frankly don't hold up to scientific inquiry."
+	            },
+	            {
+	                question_id: "2",
+	                response_answer: "Yes", // Pro-choice. http://content.usatoday.com/communities/theoval/post/2011/01/obama-recalls-roe-vs-wade-backs-abortion-rights/1
+	                accepted_responses: ["Yes", "No"],
+	                importance: 50,
+	                explanation: "Today marks the 38th anniversary of Roe v. Wade, the Supreme Court decision that protects women/'s health and reproductive freedom, and affirms a fundamental principle: that government should not intrude on private family matters. I am committed to protecting this constitutional right. I also remain committed to policies, initiatives, and programs that help prevent unintended pregnancies, support pregnant women and mothers, encourage healthy relationships, and promote adoption. And on this anniversary, I hope that we will recommit ourselves more broadly to ensuring that our daughters have the same rights, the same freedoms, and the same opportunities as our sons to fulfill their dreams.",
+	            },
+	            {
+	                question_id: "3",
+	                response_answer: "Lower", // http://www.acus.org/natosource/general-asks-obama-year-long-pause-troop-withdrawals-afghanistan
+	                accepted_responses: ["Lower", "Maintain"],
+	                importance: 50,
+	                explanation: "Mr Obama announced in June that United States troop levels would fall from their current 97,000 to around 68,000 by September 2012 and continue to leave Afghanistan afterwards at a \"steady pace\".",
+	            },
+	            {
+	                question_id: "4",
+	                response_answer: "Civil Unions",
+	                accepted_responses: ["Against", "For", "Civil Unions" ],
+	                importance: 10,
+	                explanation: "In 2008, he visited the Saddleback Church in Orange County, Calif., where the pastor Rick Warren asked him to define marriage. \"I believe that marriage is between a man and a woman,\" Mr. Obama said. \"For me, as a Christian, it is also a sacred union.\" Three years later, Mr. Obama has said his views are evolving, in part because he has \"very close friends who are married gay and lesbian couples.\"",
+	            },
+	            // {
+	            //                 question_id: "5",
+	            //                 response_answer: "Yes",
+	            //                 accepted_responses: ["Yes"],
+	            //                 importance: 250,
+	            //                 explanation: "We agree with Jimmy that the rent is too damn high",
+	            //             },
+	            {
+	                question_id: "6",
+	                response_answer: "Raise", //http://www.barackobama.com/news/entry/president-obamas-statement-on-tonights-payroll-tax-vote/
+	                accepted_responses: ["Raise", "Keep"],
+	                importance: 50,
+	                explanation: "It makes absolutely no sense to raise taxes on the middle class at a time when so many are still trying to get back on their feet.",
+	            },
+	            {
+	                question_id: "7",
+	                response_answer: "Same Benefits", // http://dailycaller.com/2011/02/14/obama-outlines-principles-for-future-of-social-security-in-budget-sure-to-spark-contention-with-hill-republicans/
+	                accepted_responses: ["Same Benefits"],
+	                importance: 10,
+	                explanation: "Instead of taking a hard line on reforming the entitlement program, the administration proposes \"strengthening\" it to meet growing demand.",
+	            },
+	            {
+	                question_id: "8",
+	                response_answer: "Prevent Benefits", // Deport , Prevent Benefits , Eligble Benefits , Path
+	                accepted_responses: ["Eligble Benefits", "Path"],
+	                importance: 50,
+	                explanation: "\"Now, I strongly believe that we should take on, once and for all, the issue of illegal immigration. I am prepared to work with Republicans and Democrats to protect our borders, enforce our laws and address the millions of undocumented workers who are now living in the shadows. I know that debate will be difficult and take time. But tonight, let’s agree to make that effort. And let’s stop expelling talented, responsible young people who can staff our research labs, start new businesses, and further enrich this nation.\" — Obama on immigration.",
+	            },
+	            {
+	                question_id: "9",
+	                response_answer: "Protect", // Out, Protect, Involve
+	                accepted_responses: ["Protect", "Involve"],
+	                importance: 50,
+	                explanation: "",
+	            },
+	            {
+	                question_id: "10",
+	                response_answer: "Maintain", // Abolish , Drastic , Reduce , Maintain
+	                accepted_responses: ["Maintain"],
+	                importance: 250,
+	                explanation: "",
+	            }   
+	        ]
+	    },
     // {
     //     name: "Jimmy McMillan",
     //     url: "http://mcmillan2012.com/",
